@@ -12,6 +12,7 @@ Calculated using the following formula:
 
 
 class BMICalculator:
+    
     def __init__(self, master):
         self.master = master
         self.frame = tk.Frame(self.master)
