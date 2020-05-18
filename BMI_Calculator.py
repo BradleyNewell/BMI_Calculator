@@ -70,4 +70,3 @@ if __name__ == "__main__":
     root.geometry("256x100")
     BMICalculator(root)
     root.mainloop()
-
