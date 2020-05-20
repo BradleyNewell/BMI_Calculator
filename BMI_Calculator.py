@@ -35,7 +35,7 @@ class BMICalculator:
         self.height_entry_field = tk.Entry(self.frame, textvariable=self.user_height)
         self.display_output = tk.Entry(self.frame, textvariable=self.user_bmi)
 
-        # Button to enter the input and perform calculation using the calculate_bmi method
+        # Button to submit the users input and perform the calculation using the calculate_bmi method
 
         self.submit_button = tk.Button(self.frame, command=lambda: self.calculate_bmi(self.user_weight.get(),
                                                                                       self.user_height.get()),
